@@ -2,9 +2,29 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <option name="USE_RELEASE_OPTION" value="false" />
-    <bytecodeTargetLevel target="8" />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="javabase" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="demo" target="1.8" />
+      <module name="demo (1) (priv.lyb)" target="1.8" />
+      <module name="javabase" target="1.8" />
+      <module name="RedisStudy" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="RedisStudy" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="demo (1) (priv.lyb)" options="-parameters" />
+      <module name="javabase" options="-parameters" />
+    </option>
   </component>
 </project>

@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JavaBasis/JavaBasis.iml" filepath="$PROJECT_DIR$/JavaBasis/JavaBasis.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaConcurrent/JavaConcurrent.iml" filepath="$PROJECT_DIR$/JavaConcurrent/JavaConcurrent.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaVirtualMachine/JavaVirtualMachine.iml" filepath="$PROJECT_DIR$/JavaVirtualMachine/JavaVirtualMachine.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/LearningProcessForJava.iml" filepath="$PROJECT_DIR$/.idea/LearningProcessForJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/MqStudy/MqStudy.iml" filepath="$PROJECT_DIR$/MqStudy/MqStudy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/RedisStudy/RedisStudy.iml" filepath="$PROJECT_DIR$/RedisStudy/RedisStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javabase/javabase.iml" filepath="$PROJECT_DIR$/javabase/javabase.iml" />
     </modules>
   </component>
 </project>
