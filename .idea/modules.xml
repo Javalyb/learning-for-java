@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JavaConcurrent/JavaConcurrent.iml" filepath="$PROJECT_DIR$/JavaConcurrent/JavaConcurrent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaVirtualMachine/JavaVirtualMachine.iml" filepath="$PROJECT_DIR$/JavaVirtualMachine/JavaVirtualMachine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javavirtualmachine/JavaVirtualMachine.iml" filepath="$PROJECT_DIR$/javavirtualmachine/JavaVirtualMachine.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/LearningProcessForJava.iml" filepath="$PROJECT_DIR$/.idea/LearningProcessForJava.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MqStudy/MqStudy.iml" filepath="$PROJECT_DIR$/MqStudy/MqStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redisstudy/demo.iml" filepath="$PROJECT_DIR$/redisstudy/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/javabase/javabase.iml" filepath="$PROJECT_DIR$/javabase/javabase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaconcurrent/javaconcurrent.iml" filepath="$PROJECT_DIR$/javaconcurrent/javaconcurrent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mqstudy/mqstudy.iml" filepath="$PROJECT_DIR$/mqstudy/mqstudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redisstudy/redisstudy.iml" filepath="$PROJECT_DIR$/redisstudy/redisstudy.iml" />
     </modules>
   </component>
 </project>

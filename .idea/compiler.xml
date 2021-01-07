@@ -8,23 +8,35 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mqstudy" />
         <module name="javabase" />
+        <module name="javaconcurrent" />
+        <module name="JavaVirtualMachine" />
+        <module name="redisstudy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="demo" target="1.8" />
       <module name="demo (1) (priv.lyb)" target="1.8" />
       <module name="javabase" target="1.8" />
+      <module name="javaconcurrent" target="1.8" />
+      <module name="JavaVirtualMachine" target="1.8" />
+      <module name="mqstudy" target="1.8" />
       <module name="RedisStudy" target="1.8" />
+      <module name="redisstudy" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="JavaVirtualMachine" options="-parameters" />
       <module name="RedisStudy" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo (1) (priv.lyb)" options="-parameters" />
       <module name="javabase" options="-parameters" />
+      <module name="javaconcurrent" options="-parameters" />
+      <module name="mqstudy" options="-parameters" />
+      <module name="redisstudy" options="-parameters" />
     </option>
   </component>
 </project>
