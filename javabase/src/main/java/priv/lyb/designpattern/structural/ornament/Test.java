@@ -9,8 +9,8 @@ import lombok.extern.slf4j.Slf4j;
 public class Test {
     @org.junit.Test
     public void fun() {
-        priv.lyb.designpattern.structural.ornament.Class1 class1 = new priv.lyb.designpattern.structural.ornament.ChildrenClass1();
-        priv.lyb.designpattern.structural.ornament.OrnamentClass ornamentClass = new priv.lyb.designpattern.structural.ornament.OrnamentClass(class1);
+        Class1 class1 = new ChildrenClass1();
+        OrnamentClass ornamentClass = new OrnamentClass(class1);
         ornamentClass.method1();
     }
 }

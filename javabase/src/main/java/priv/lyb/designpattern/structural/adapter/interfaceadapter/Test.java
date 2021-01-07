@@ -10,7 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 public class Test {
     @org.junit.Test
     public void fun() {
-        Source source = new priv.lyb.designpattern.structural.adapter.interfaceadapter.SourceSub1();
+        Source source = new SourceSub1();
         source.method1();
         source.method2();
     }

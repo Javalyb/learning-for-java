@@ -4,9 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/javavirtualmachine/JavaVirtualMachine.iml" filepath="$PROJECT_DIR$/javavirtualmachine/JavaVirtualMachine.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/LearningProcessForJava.iml" filepath="$PROJECT_DIR$/.idea/LearningProcessForJava.iml" />
-      <module fileurl="file://$PROJECT_DIR$/redisstudy/demo.iml" filepath="$PROJECT_DIR$/redisstudy/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/javabase/javabase.iml" filepath="$PROJECT_DIR$/javabase/javabase.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaconcurrent/javaconcurrent.iml" filepath="$PROJECT_DIR$/javaconcurrent/javaconcurrent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javavirtualmachine/javavirtualmachine.iml" filepath="$PROJECT_DIR$/javavirtualmachine/javavirtualmachine.iml" />
       <module fileurl="file://$PROJECT_DIR$/mqstudy/mqstudy.iml" filepath="$PROJECT_DIR$/mqstudy/mqstudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/redisstudy/redisstudy.iml" filepath="$PROJECT_DIR$/redisstudy/redisstudy.iml" />
     </modules>

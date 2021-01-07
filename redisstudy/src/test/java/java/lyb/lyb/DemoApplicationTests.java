@@ -1,4 +1,4 @@
-package priv.lyb;
+package java.lyb.lyb;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
