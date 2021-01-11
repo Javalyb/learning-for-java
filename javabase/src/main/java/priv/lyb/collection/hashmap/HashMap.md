@@ -31,6 +31,9 @@ get原理：
     2.CurrentHashMap：对象锁，分段锁，多线程操作只会锁住当前操作索引的节点
     ![img_3.png](img_3.png)
     3.Collections.syschronizedMap
+        排斥锁和方法锁
+        ![img_4.png](img_4.png)
+        ![img_5.png](img_5.png)
 
 如何解决hash冲突：
     1.开放地址法

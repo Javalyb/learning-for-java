@@ -1,9 +1,5 @@
-package priv.lyb.study.hashmap;
+package priv.lyb.collection.hashmap;
 
-import org.hamcrest.number.IsNaN;
-
-import java.util.Collection;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
