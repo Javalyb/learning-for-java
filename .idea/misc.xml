@@ -12,10 +12,14 @@
         <option value="$PROJECT_DIR$/RedisStudy/pom.xml" />
         <option value="$PROJECT_DIR$/MqLearn/pom.xml" />
         <option value="$PROJECT_DIR$/javabase/pom.xml" />
-        <option value="$PROJECT_DIR$/javaconcurrent/pom.xml" />
         <option value="$PROJECT_DIR$/mqstudy/pom.xml" />
         <option value="$PROJECT_DIR$/virtualmachine/pom.xml" />
-        <option value="$PROJECT_DIR$/javavirtualmachine/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/rediss/pom.xml" />
+        <option value="$PROJECT_DIR$/messagequeues/pom.xml" />
+        <option value="$PROJECT_DIR$/messagequeue/pom.xml" />
+        <option value="$PROJECT_DIR$/redis/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
