@@ -1,4 +1,4 @@
-package priv.lyb.study.designpattern.structural.cblibagent;
+package priv.lyb.study.designpattern.structural.agent.cblibagent;
 
 
 import org.springframework.cglib.proxy.Enhancer;

@@ -1,4 +1,4 @@
-package priv.lyb.study.designpattern.structural.cblibagent;
+package priv.lyb.study.designpattern.structural.agent.cblibagent;
 
 import lombok.extern.slf4j.Slf4j;
 

@@ -6,10 +6,12 @@ package priv.lyb.study.jdk8new.lambda;
 @FunctionalInterface
 public interface A {
     void funA();
-    default void funB(){
+
+    default void funB() {
         System.out.println("default  funB");
     }
-    default void funC(){
+
+    default void funC() {
         System.out.println("default funC");
     }
 }

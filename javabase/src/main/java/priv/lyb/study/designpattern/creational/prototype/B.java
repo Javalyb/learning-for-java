@@ -7,9 +7,9 @@ import lombok.Data;
  */
 @Data
 public class B {
+    private String bb;
+
     B(String bb) {
         this.bb = bb;
     }
-
-    private String bb;
 }

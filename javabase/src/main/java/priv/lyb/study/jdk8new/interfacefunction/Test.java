@@ -5,7 +5,7 @@ package priv.lyb.study.jdk8new.interfacefunction;
  */
 public class Test {
     @org.junit.Test
-    public void fun(){
+    public void fun() {
         A a = new B();
         a.defaultFunA("a");
         a.defaultFunB("b");
@@ -13,13 +13,13 @@ public class Test {
     }
 
     @org.junit.Test
-    public void fun1(){
+    public void fun1() {
         B b = new B();
         b.fun();
     }
 
     @org.junit.Test
-    public void fun2(){
+    public void fun2() {
         Inf inf = new InfImp();
         System.out.println(inf.add(10, 20));
         System.out.println(inf.mul(10, 20));

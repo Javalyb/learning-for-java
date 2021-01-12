@@ -8,27 +8,27 @@ import org.junit.Test;
 public class Solution7 {
     public int reverse(int x) {
         int xx = Math.abs(x);
-        char [] charArray = String.valueOf(xx).toCharArray();
+        char[] charArray = String.valueOf(xx).toCharArray();
         String isNegative = "";
         int len;
-        if(charArray.length%2==0){
-            len =  charArray.length/2;
-        }else{
-            len = (int)(charArray.length/2);
+        if (charArray.length % 2 == 0) {
+            len = charArray.length / 2;
+        } else {
+            len = (int) (charArray.length / 2);
         }
         char ca;
-        for(int i=0;i<len;i++){
+        for (int i = 0; i < len; i++) {
             ca = charArray[i];
-            charArray[i]=charArray[charArray.length-i-1];
-            charArray[charArray.length-i-1]=ca;
+            charArray[i] = charArray[charArray.length - i - 1];
+            charArray[charArray.length - i - 1] = ca;
         }
         try {
-            if(x<0){
+            if (x < 0) {
                 return Integer.valueOf("-" + new String(charArray));
-            }else{
+            } else {
                 return Integer.valueOf(new String(charArray));
             }
-        }catch (NumberFormatException e){
+        } catch (NumberFormatException e) {
             return 0;
         }
     }

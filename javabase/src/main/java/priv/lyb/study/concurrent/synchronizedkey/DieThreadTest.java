@@ -11,6 +11,13 @@ public class DieThreadTest {
     static Object obj1 = new Object();
     static Object obj2 = new Object();
 
+    @Test
+    public void fun1() {
+        log.info("---");
+        new Thread(new Thread1()).start();
+        new Thread(new Thread2()).start();
+    }
+
     class Thread1 implements Runnable {
         @Override
         public void run() {
@@ -47,12 +54,5 @@ public class DieThreadTest {
                 log.info("---end Thread2---");
             }
         }
-    }
-
-    @Test
-    public void fun1() {
-        log.info("---");
-        new Thread(new Thread1()).start();
-        new Thread(new Thread2()).start();
     }
 }

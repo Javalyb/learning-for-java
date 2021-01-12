@@ -8,9 +8,9 @@ import java.util.Map;
  */
 public class Test {
     @org.junit.Test
-    public void fun(){
-        Map<String,String> map = new HashMap<>(13);
-        map.put("a","a");
+    public void fun() {
+        Map<String, String> map = new HashMap<>(13);
+        map.put("a", "a");
 
 
     }

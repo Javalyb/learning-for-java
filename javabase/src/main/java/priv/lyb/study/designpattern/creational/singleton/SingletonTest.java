@@ -7,10 +7,10 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 public class SingletonTest {
+    private volatile static SingletonTest singletonTest = null;
+
     private SingletonTest() {
     }
-
-    private volatile static SingletonTest singletonTest = null;
 
     public static SingletonTest getSingletonTest() {
         if (singletonTest == null) {

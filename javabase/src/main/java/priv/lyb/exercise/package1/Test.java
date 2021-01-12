@@ -5,7 +5,7 @@ package priv.lyb.exercise.package1;
  */
 public class Test {
     @org.junit.Test
-    public void fun(){
+    public void fun() {
 
     }
 }

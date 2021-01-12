@@ -12,5 +12,6 @@ public class Test {
         A obj1 = new B();
         obj1.a();
         System.out.println(obj1.i);
+        System.out.println(obj1.i1);
     }
 }

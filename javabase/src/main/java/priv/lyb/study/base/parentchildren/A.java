@@ -5,6 +5,7 @@ package priv.lyb.study.base.parentchildren;
  */
 class A {
     Integer i = 10;
+    static Integer i1 = 15;
 
     void a() {
         System.out.println("A.a");

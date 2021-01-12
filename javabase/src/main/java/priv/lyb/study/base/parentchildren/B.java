@@ -5,6 +5,9 @@ package priv.lyb.study.base.parentchildren;
  */
 public class B extends A {
     Integer i = 20;
+    static Integer i1 = 25;
+    B(){
+    }
 
     @Override
     void a() {

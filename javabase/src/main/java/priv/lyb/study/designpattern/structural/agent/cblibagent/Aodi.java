@@ -1,4 +1,4 @@
-package priv.lyb.study.designpattern.structural.cblibagent;
+package priv.lyb.study.designpattern.structural.agent.cblibagent;
 
 /**
  * @author LiuYingBo 2021/1/3 下午4:57

@@ -1,4 +1,4 @@
-package priv.lyb.study.designpattern.structural.agent.dynamicagent;
+package priv.lyb.study.designpattern.structural.agent.jdkdynamicagent;
 
 /**
  * @author LiuYingBo 2021/1/3 下午4:58

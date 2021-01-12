@@ -1,4 +1,4 @@
-package priv.lyb.study.designpattern.structural.agent.dynamicagent;
+package priv.lyb.study.designpattern.structural.agent.jdkdynamicagent;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

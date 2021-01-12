@@ -10,6 +10,10 @@ import org.springframework.stereotype.Component;
 @Component
 @Scope("prototype")
 public class B implements BBase {
+    @Autowired
+    private A a;
+    private String name;
+
     public A getA() {
         return a;
     }
@@ -18,9 +22,6 @@ public class B implements BBase {
         this.a = a;
     }
 
-    @Autowired
-    private A a;
-
     public String getName() {
         return name;
     }
@@ -28,6 +29,4 @@ public class B implements BBase {
     public void setName(String name) {
         this.name = name;
     }
-
-    private String name;
 }

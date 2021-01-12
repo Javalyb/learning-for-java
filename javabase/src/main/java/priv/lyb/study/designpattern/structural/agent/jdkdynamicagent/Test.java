@@ -1,4 +1,4 @@
-package priv.lyb.study.designpattern.structural.agent.dynamicagent;
+package priv.lyb.study.designpattern.structural.agent.jdkdynamicagent;
 
 import lombok.extern.slf4j.Slf4j;
 
