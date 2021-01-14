@@ -1,6 +1,7 @@
 package priv.lyb.study.base.statickey.package1;
 
 import lombok.extern.slf4j.Slf4j;
+import org.junit.rules.TestRule;
 
 /**
  * @author LiuYingBo 2021/1/4 上午3:47
@@ -17,5 +18,22 @@ public class Test {
         A classA = new A();
         classA.method1();
         A.method1();
+    }
+
+    private int b = 0;
+    private final int a = b++;
+    @org.junit.Test
+    public void fun1(){
+        Test test = null;
+        try {
+            test = Test.class.newInstance();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
+        for (int i=0;i<5;i++){
+            System.out.println(test.a);
+        }
     }
 }
