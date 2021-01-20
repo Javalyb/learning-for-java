@@ -5,7 +5,7 @@ package priv.lyb.study.base.overwriter;
  */
 public class D implements C {
     @Override
-    public void fun1(String p1, Integer p2) {
-
+    public F fun1(String p1, Integer p2) {
+        return new F();
     }
 }

@@ -9,10 +9,11 @@ import java.util.Map;
 interface Command {
     void action();
 }
+
 public class EnumMaps {
     public static void main(String[] args) {
-        EnumMap<AlarmPoints,Command> em = new EnumMap<AlarmPoints, Command>(AlarmPoints.class);
-        em.put(AlarmPoints.BATHROOM,() -> System.out.println("bathroom"));
+        EnumMap<AlarmPoints, Command> em = new EnumMap<AlarmPoints, Command>(AlarmPoints.class);
+        em.put(AlarmPoints.BATHROOM, () -> System.out.println("bathroom"));
         em.put(AlarmPoints.KITCHEN, () -> System.out.println("kitchen"));
         for (Map.Entry<AlarmPoints, Command> alarmPointsCommandEntry : em.entrySet()) {
             System.out.println(alarmPointsCommandEntry.getKey());
