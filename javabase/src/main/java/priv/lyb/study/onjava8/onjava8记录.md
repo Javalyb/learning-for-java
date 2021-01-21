@@ -82,6 +82,8 @@ private方法:
     4.父类构造器尽量不调用调用子类方法，此时子类还没有初始化;
 
 一个.java源文件中，可以有多个class。可以没有public修饰的class，最多只能有一个public修饰的class，且public修饰的class名必须与.java源文件名字相同;
+
+接口: 可以包含属性，被隐式指明为final和static;
     
 
 
