@@ -1,9 +1,9 @@
-package priv.lyb.study.enumkey.enums;
+package priv.lyb.study.base.enumkey.enums;
 
 /**
  * @author LiuYingBo 2021/01/15 19:33
  */
-import static priv.lyb.study.enumkey.enums.SpicinessEnum.*;
+import static priv.lyb.study.base.enumkey.enums.SpicinessEnum.*;
 public class Burritos2 {
     SpicinessEnum degree;
     public Burritos2(SpicinessEnum degree){

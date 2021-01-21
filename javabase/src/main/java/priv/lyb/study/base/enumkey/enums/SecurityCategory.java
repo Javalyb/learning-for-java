@@ -1,6 +1,4 @@
-package priv.lyb.study.enumkey.enums;
-
-import java.util.Random;
+package priv.lyb.study.base.enumkey.enums;
 
 /**
  * @author LiuYingBo 2021/01/16 00:51

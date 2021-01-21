@@ -1,4 +1,4 @@
-package priv.lyb.study.enumkey.enums;
+package priv.lyb.study.base.enumkey.enums;
 
 /**
  * @author LiuYingBo 2021/01/16 00:01

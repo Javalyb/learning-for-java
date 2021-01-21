@@ -1,10 +1,10 @@
-package priv.lyb.study.enumkey.enums;
+package priv.lyb.study.base.enumkey.enums;
 
 /**
  * @author LiuYingBo 2021/01/16 00:06
  */
 
-//import static priv.lyb.study.enumkey.enums.Foods.*;
+//import static priv.lyb.study.base.enumkey.enums.Foods.*;
 
 public class TypeOfFood {
     public static void main(String[] args) {
