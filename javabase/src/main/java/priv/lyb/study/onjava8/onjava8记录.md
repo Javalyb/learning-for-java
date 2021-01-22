@@ -74,13 +74,14 @@ private方法:
     默认会加final修饰，子类无法重写该方法，但是可以创建同名的方法;
 
 多态:
+    被private，final，static修饰的方法都不是多态的;
     动态绑定: 在运行时根据对象的类型进行绑定，在运行时判断对象的类型，方法调用机制调用恰当的方法;
     1.基类私有方法(默认为final)不能被重写，子类可以用@Override注解检测是否可以重写基类方法;
     2.向上转型时，基类属性不是多态的，父子类属性各自有一份存储空间;
     3.static方法也不是多态的;
     4.父类构造器尽量不调用调用子类方法，此时子类还没有初始化;
 
-一个.java源文件中，可以有多个class。可以没有public修饰的class，最多只能有一个public修饰的class，且public修饰的class名必须与.java源文件名字相同;
+一个.java源文件中，可以有多个class。可以没有public修饰的class，最多只能有一个public修饰的class，且public修饰的class名称必须与.java源文件名字相同;
 
 接口: 可以包含属性，被隐式指明为final和static;
 
