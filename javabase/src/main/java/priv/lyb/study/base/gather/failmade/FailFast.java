@@ -1,4 +1,4 @@
-package priv.lyb.study.base.collection.failmade;
+package priv.lyb.study.base.gather.failmade;
 
 import org.junit.Test;
 

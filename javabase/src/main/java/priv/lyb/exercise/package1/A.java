@@ -1,12 +1,10 @@
 package priv.lyb.exercise.package1;
 
 /**
- * @author LiuYingBo 2021/01/20 23:00
+ * @author LiuYingBo 2021/01/22 16:59
  */
 public class A {
-
-}
-
-class C{
-
+    void fun1(){
+        System.out.println("A fun1");
+    }
 }

@@ -70,7 +70,6 @@ final: 声明对象和方法参数时，引用不能改变;
     定义: 没有初始化的final属性。编译器确保final在使用前必须初始化，这样既能使每一个对象的final属性值不同，也能保持它的不变性;
 
 
-
 private方法:
     默认会加final修饰，子类无法重写该方法，但是可以创建同名的方法;
 
@@ -84,6 +83,9 @@ private方法:
 一个.java源文件中，可以有多个class。可以没有public修饰的class，最多只能有一个public修饰的class，且public修饰的class名必须与.java源文件名字相同;
 
 接口: 可以包含属性，被隐式指明为final和static;
+
+List泛型菱形语法:
+    new ArrayList<>()，jdk7前需要在两端都进行类型声明，在这之后不需要强迫右侧再重复声明类型;
     
 
 

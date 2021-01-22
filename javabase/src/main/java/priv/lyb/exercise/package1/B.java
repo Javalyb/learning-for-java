@@ -1,14 +1,16 @@
 package priv.lyb.exercise.package1;
 
-import org.junit.Test;
-
 /**
- * @author LiuYingBo 2021/01/20 23:00
+ * @author LiuYingBo 2021/01/22 16:59
  */
-public class B {
-    @Test
-    public void fun(){
-        A a = new A();
-        B b = new B();
+public class B extends A{
+    void fun2(){
+        System.out.println("B fun2");
+    }
+
+    public static void main(String[] args) {
+        A b = new B();
+//        b.fun2();
+        b.fun1();
     }
 }

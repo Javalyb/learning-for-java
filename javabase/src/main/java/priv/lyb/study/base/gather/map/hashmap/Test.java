@@ -1,4 +1,4 @@
-package priv.lyb.study.base.collection.hashmap;
+package priv.lyb.study.base.gather.map.hashmap;
 
 import java.util.HashMap;
 import java.util.Map;

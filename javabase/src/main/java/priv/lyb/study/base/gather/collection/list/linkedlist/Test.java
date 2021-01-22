@@ -1,4 +1,4 @@
-package priv.lyb.study.base.collection.linkedlist;
+package priv.lyb.study.base.gather.collection.list.linkedlist;
 
 import java.util.LinkedList;
 import java.util.List;
