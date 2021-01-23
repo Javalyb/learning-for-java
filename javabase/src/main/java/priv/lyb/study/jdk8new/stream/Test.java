@@ -1,8 +1,11 @@
 package priv.lyb.study.jdk8new.stream;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Random;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * @author LiuYingBo 2021/01/11 23:18
@@ -41,5 +44,29 @@ public class Test {
 
         String str = list.stream().sorted().collect(Collectors.joining(""));
         System.out.println(str);
+    }
+
+    @org.junit.Test
+    public void fun1() {
+        new Random(47)
+                .ints(5, 20)
+                .distinct()
+                .limit(7)
+                .sorted()
+                .forEach(System.out::println);
+    }
+
+    static boolean fun2_interface(String s){
+        return "2".equals(s);
+    }
+
+    @org.junit.Test
+    public void fun2() {
+        Stream.of(new String[] {"1","2","3","4","5"})
+                .skip(1)
+                .limit(3)
+                .sorted(Comparator.reverseOrder())
+                .filter(Test::fun2_interface)
+                .forEach(System.out::println);
     }
 }
