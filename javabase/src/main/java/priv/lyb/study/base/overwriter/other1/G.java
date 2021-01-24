@@ -1,6 +1,6 @@
 package priv.lyb.study.base.overwriter.other1;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import priv.lyb.study.base.overwriter.other2.A;
 
 /**

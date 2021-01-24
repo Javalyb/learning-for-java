@@ -5,14 +5,14 @@ package priv.lyb.study.base.annotation;
  */
 public class Test {
     @TestAnnotation(id = 0,description = "annotation Test fun")
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun(){
         Test.fun1();
         System.out.println("Test fun");
     }
 
     @TestAnnotation(id = 1,description = "annotation Test fun2")
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun2(){
         System.out.println("Test fun2");
     }

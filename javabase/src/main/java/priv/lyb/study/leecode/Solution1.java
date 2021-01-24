@@ -1,6 +1,6 @@
 package priv.lyb.study.leecode;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 

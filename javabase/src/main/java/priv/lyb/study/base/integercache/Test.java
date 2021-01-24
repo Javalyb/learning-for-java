@@ -15,7 +15,7 @@ public class Test {
      * 1.范围：-128 -> 127，在这个范围会用缓存对象；
      * 2.Integer和int比较的是数值；
      */
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun1() {
         Integer a1 = 100;
         Integer a2 = 100;

@@ -9,7 +9,7 @@ import java.util.List;
  * @author LiuYingBo 2021/01/08 20:57
  */
 public class Test1 {
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun() {
         List<String> arrayList = new ArrayList<>();
         arrayList.add("");

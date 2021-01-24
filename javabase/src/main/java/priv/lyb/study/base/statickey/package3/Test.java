@@ -11,7 +11,7 @@ package priv.lyb.study.base.statickey.package3;
  * 3.构造方法；
  */
 public class Test {
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun(){
         A a = new A();
     }

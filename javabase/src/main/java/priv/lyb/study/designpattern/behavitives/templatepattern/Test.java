@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 public class Test {
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun() {
         RestaurantTemplate restaurantTemplate1 = new Person1();
         restaurantTemplate1.process();

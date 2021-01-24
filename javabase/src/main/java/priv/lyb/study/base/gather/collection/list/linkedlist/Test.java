@@ -11,7 +11,7 @@ import java.util.List;
  * 适用范围：查询
  */
 public class Test {
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun() {
         System.out.println(System.currentTimeMillis());
         List<String> list = new LinkedList<>();

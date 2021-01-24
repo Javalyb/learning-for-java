@@ -1,7 +1,7 @@
 package priv.lyb.study.base.extendimplement;
 
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 /**
  * @author LiuYingBo 2021/01/20 19:48

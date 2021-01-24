@@ -8,7 +8,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
  */
 @Slf4j
 public class Test {
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun() {
         SpringApplicationBuilder builder = new SpringApplicationBuilder(A.class);
         builder.build();

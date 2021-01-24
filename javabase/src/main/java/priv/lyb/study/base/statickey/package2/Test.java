@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 public class Test {
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun() {
         A a = new B();
         a.fun1();

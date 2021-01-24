@@ -1,7 +1,7 @@
 package priv.lyb.study.base.genericity;
 
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 /**
  * @author LiuYingBo 2021/1/4 下午7:31

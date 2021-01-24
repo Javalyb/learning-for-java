@@ -10,14 +10,14 @@ import java.lang.reflect.Proxy;
  */
 @Slf4j
 public class Test {
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun() {
         Car car1 = new Aodi();
         AgentCar agentCar = new AgentCar(car1);
         agentCar.engine();
     }
 
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun1() {
         InvocationHandler invocationHandler = new InvocationHandlerTarget(new Aodi());
         Car car = (Car) Proxy.newProxyInstance(Aodi.class.getClassLoader(), Aodi.class.getInterfaces(), invocationHandler);

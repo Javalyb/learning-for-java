@@ -1,7 +1,6 @@
 package priv.lyb.study.base.statickey.package1;
 
 import lombok.extern.slf4j.Slf4j;
-import org.junit.rules.TestRule;
 
 /**
  * @author LiuYingBo 2021/1/4 上午3:47
@@ -13,7 +12,7 @@ import org.junit.rules.TestRule;
  */
 @Slf4j
 public class Test {
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun() {
         A classA = new A();
         classA.method1();
@@ -22,7 +21,7 @@ public class Test {
 
     private int b = 0;
     private final int a = b++;
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun1(){
         Test test = null;
         try {

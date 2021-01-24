@@ -9,7 +9,7 @@ import java.math.BigDecimal;
  */
 @Slf4j
 public class Test {
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun1() {
         //在某个范围内的整型数值的个数是有限的，而浮点数却不是
         Double a = 100d;
@@ -33,7 +33,7 @@ public class Test {
         System.out.println(Double.doubleToLongBits(e) == Double.doubleToLongBits(f));
     }
 
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun2() {
         //在某个范围内的整型数值的个数是有限的，而浮点数却不是
         Double d1 = 100d;
@@ -44,7 +44,7 @@ public class Test {
         log.info("d3==d4[{}]", d3 == d4);
     }
 
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun3() {
         Double d1 = 500d;
         Double d2 = 500d;

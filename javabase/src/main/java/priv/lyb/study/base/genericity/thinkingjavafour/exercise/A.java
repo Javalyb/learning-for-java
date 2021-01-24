@@ -1,7 +1,7 @@
 package priv.lyb.study.base.genericity.thinkingjavafour.exercise;
 
 import com.sun.org.apache.xerces.internal.dom.AttrNSImpl;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.w3c.dom.TypeInfo;
 import priv.lyb.study.base.genericity.thinkingjavafour.generics.Holder3;
 

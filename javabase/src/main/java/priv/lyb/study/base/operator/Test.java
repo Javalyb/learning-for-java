@@ -4,7 +4,7 @@ package priv.lyb.study.base.operator;
  * @author LiuYingBo 2021/01/08 13:15
  */
 public class Test {
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun() {
         String a = "s";
         String b = new String("s");

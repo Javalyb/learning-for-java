@@ -1,6 +1,6 @@
 package priv.lyb.study.jdk8new.stream;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 import java.nio.file.Files;

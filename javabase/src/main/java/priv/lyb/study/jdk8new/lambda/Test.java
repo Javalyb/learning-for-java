@@ -7,7 +7,7 @@ import java.util.List;
  * @author LiuYingBo 2021/01/11 00:19
  */
 public class Test {
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun() {
         new Thread(new Runnable() {
             @Override
@@ -18,7 +18,7 @@ public class Test {
         new Thread(() -> System.out.println("---")).start();
     }
 
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun1() {
         List<String> list = Arrays.asList("1", "2", "3");
         list.forEach(item -> {
@@ -26,7 +26,7 @@ public class Test {
         });
     }
 
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun3() {
         A a = () -> {
             System.out.println("-");
@@ -36,7 +36,7 @@ public class Test {
         a.funC();
     }
 
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun5() {
         B b = (a) -> {
             System.out.println("-");

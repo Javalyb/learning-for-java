@@ -13,7 +13,7 @@ import java.util.List;
  * 并发问题替代方案：Vertor,Collections.synchronizedList,JUC.CopyOnWriteArrayList；
  */
 public class Test {
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun() {
         List<String> arrayList = new ArrayList<>();
         arrayList.add("");

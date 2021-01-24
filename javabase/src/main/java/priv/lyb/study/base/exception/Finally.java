@@ -1,12 +1,12 @@
 package priv.lyb.study.base.exception;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 /**
  * @author LiuYingBo 2021/01/12 11:47
  */
 public class Finally {
-    @org.junit.Test
+    @Test
     public void fun() {
         System.out.println(Finally.fun1());
     }

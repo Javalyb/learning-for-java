@@ -11,7 +11,7 @@ package priv.lyb.study.base.hashcode;
  * 3.hashCode相等时，对象不一定相等；
  */
 public class Test {
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun1() {
         Integer a = 100;
         Integer b = 100;

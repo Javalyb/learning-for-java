@@ -4,7 +4,7 @@ package priv.lyb.study.jdk8new.interfacefunction;
  * @author LiuYingBo 2021/01/11 16:22
  */
 public class Test {
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun() {
         A a = new B();
         a.defaultFunA("a");
@@ -12,13 +12,13 @@ public class Test {
         A.staticFunA("a");
     }
 
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun1() {
         B b = new B();
         b.fun();
     }
 
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun2() {
         Inf inf = new InfImp();
         System.out.println(inf.add(10, 20));

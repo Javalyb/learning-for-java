@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 public class Test {
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun() {
         Class1 class1 = new ChildrenClass1();
         OrnamentClass ornamentClass = new OrnamentClass(class1);

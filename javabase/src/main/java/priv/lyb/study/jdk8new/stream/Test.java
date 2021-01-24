@@ -11,7 +11,7 @@ import java.util.stream.Stream;
  * @author LiuYingBo 2021/01/11 23:18
  */
 public class Test {
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun() {
         List<String> list = Arrays.asList("1", "2", "3", "2", "5", "9", "8");
         List<String> list1 = list.stream().filter(p -> Integer.parseInt(p) > 1).collect(Collectors.toList());
@@ -46,7 +46,7 @@ public class Test {
         System.out.println(str);
     }
 
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun1() {
         new Random(47)
                 .ints(5, 20)
@@ -60,7 +60,7 @@ public class Test {
         return "2".equals(s);
     }
 
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun2() {
         Stream.of(new String[] {"1","2","3","4","5"})
                 .skip(1)

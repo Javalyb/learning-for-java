@@ -6,7 +6,7 @@ import java.util.*;
  * @author LiuYingBo 2021/01/22 14:35
  */
 public class Test {
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void fun(){
         Collection<Integer> collection = new ArrayList<>(Arrays.asList(1,2,3,4,5));
         Integer [] moreInts = {6,7,8,9};

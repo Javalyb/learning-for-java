@@ -1,7 +1,7 @@
 package priv.lyb.study.designpattern.creational.singleton;
 
 import lombok.extern.slf4j.Slf4j;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 /**
  * @author Liuyingbo 2021/1/2

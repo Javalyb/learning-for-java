@@ -1,6 +1,6 @@
 package priv.lyb.study.base.genericity.thinkingjavafour.util;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 /**
  * @author LiuYingBo 2021/01/13 19:17

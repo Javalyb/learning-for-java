@@ -1,7 +1,7 @@
 package priv.lyb.study.base.operator;
 
 import lombok.extern.slf4j.Slf4j;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 /**
  * @author LiuYingBo 2021/1/5 上午11:09
