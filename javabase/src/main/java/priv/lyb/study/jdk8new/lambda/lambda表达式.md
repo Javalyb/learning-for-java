@@ -14,9 +14,16 @@ lambda表达式实际是返回一个接口实例对象:
 使用lambda表达式注意点:
     1.表达式返回的是接口的实例对象;
     2.参数数量，是否需要返回值，返回值类型，可以选择合适的函数式接口;
-    可以参考jdk自带的函数式接口，在java.util.function包中; 
-    常用jdk函数式接口:
+    可以参考jdk自带的函数式接口，在java.util.function包中;
+
+jdk函数式接口:
     ![img_3.png](img_3.png)
+    常用:
+        1.Function: R apply(T t);
+        2.Supplier: T get();
+        3.Consumer: void accept(T t);
+        4.Predicate: boolean test(T t);
+    
 
 高级函数:
     一个消费或产生函数的函数;
