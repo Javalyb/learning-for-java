@@ -14,8 +14,7 @@ abstract class Base{
 }
 public class AnonymousConstructor {
     public static Base getBase(int i,int c){
-
-        Base base =  new Base(i) {
+        return new Base(i) {
             {
                 System.out.println("初始化");
             }
@@ -27,7 +26,6 @@ public class AnonymousConstructor {
                 System.out.println(c);
             }
         };
-        return base;
     }
 
     public static void main(String[] args) {
