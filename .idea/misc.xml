@@ -20,6 +20,7 @@
         <option value="$PROJECT_DIR$/messagequeues/pom.xml" />
         <option value="$PROJECT_DIR$/messagequeue/pom.xml" />
         <option value="$PROJECT_DIR$/redis/pom.xml" />
+        <option value="$PROJECT_DIR$/mysql/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
