@@ -6,14 +6,21 @@ package priv.lyb.study.base.innerclass;
  */
 public interface ClassInInterface {
     void howdy();
-    class Test implements ClassInInterface{
+
+    class Test implements ClassInInterface {
+        public static void main(String[] args) {
+            new ClassInInterface.Test().how();
+            new ClassInInterface.Test().howdy();
+            new Test().howdy();
+        }
+
+        public static void how() {
+            System.out.println("how");
+        }
+
         @Override
         public void howdy() {
             System.out.println("howdy");
-        }
-
-        public static void main(String[] args) {
-            new Test().howdy();
         }
     }
 }
