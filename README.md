@@ -2,12 +2,9 @@
 
 在线中文电子书:    
 
-[https://lingcoder.gitee.io/onjava8][OnJava8:]</br>           
-
-[https://www.docs4dev.com/docs/zh/spring-framework/5.1.3.RELEASE/reference/core.html#beans][Spring: ]
-
-[https://www.docs4dev.com/docs/zh/spring-boot/2.1.1.RELEASE/reference][Springboot: ]
-
+[https://lingcoder.gitee.io/onjava8][OnJava8:]  
+[https://www.docs4dev.com/docs/zh/spring-framework/5.1.3.RELEASE/reference/core.html#beans][Spring: ]  
+[https://www.docs4dev.com/docs/zh/spring-boot/2.1.1.RELEASE/reference][Springboot: ]  
 [https://www.docs4dev.com/docs/zh/spring-security/5.1.2.RELEASE/reference][Spring Security: ]
 [https://www.docs4dev.com/docs/zh/spring-amqp/2.1.2.RELEASE/reference][Spring AMQP: ]
 [https://www.docs4dev.com/docs/zh/spring-data-jpa/2.1.5.RELEASE/reference][Spring Data JPA: ]
