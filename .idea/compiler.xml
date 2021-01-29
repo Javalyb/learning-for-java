@@ -10,7 +10,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring" />
         <module name="javabase" />
-        <module name="mysql" />
         <module name="messagequeue" />
         <module name="springboot" />
         <module name="redis" />
@@ -21,7 +20,6 @@
       <module name="javaconcurrent" target="1.8" />
       <module name="javavirtualmachine" target="1.8" />
       <module name="messagequeue" target="1.8" />
-      <module name="mysql" target="1.8" />
       <module name="redis" target="1.8" />
       <module name="spring" target="1.8" />
       <module name="springboot" target="1.8" />
@@ -34,7 +32,6 @@
       <module name="javaconcurrent" options="-parameters" />
       <module name="javavirtualmachine" options="-parameters" />
       <module name="messagequeue" options="-parameters" />
-      <module name="mysql" options="-parameters" />
       <module name="redis" options="-parameters" />
       <module name="spring" options="-parameters" />
       <module name="springboot" options="-parameters" />
