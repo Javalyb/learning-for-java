@@ -13,12 +13,6 @@ public class Parce1 {
         }
     }
 
-    static class Parce{
-        public String parseString(){
-            return "parseString";
-        }
-    }
-
     class Destination{
         private String label;
 
@@ -40,11 +34,5 @@ public class Parce1 {
     public static void main(String[] args) {
         Parce1 parce1 = new Parce1();
         parce1.ship("Tasmainia");
-
-        Contents contents = new Parce1().new Contents();
-        System.out.println(contents.value());
-
-        Parce parce = new Parce1.Parce();
-        System.out.println(parce.parseString());
     }
 }
