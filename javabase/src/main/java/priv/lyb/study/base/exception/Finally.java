@@ -12,7 +12,7 @@ public class Finally {
     }
 
     /**
-     * 1.finally总会执行；
+     * 1.finally总会执行(前提是finally之前程序没有退出: 执行System.exit(0))；
      * 2.finally有返回值时，只会返回finally中的值；
      * 3.finally没有返回值，try或catch有返回值时。先会保存try或catch中的值，等finally执行完后，再返回try或catch中的值；
      */

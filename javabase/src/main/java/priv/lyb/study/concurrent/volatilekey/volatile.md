@@ -7,4 +7,11 @@ volatile关键字:
 语义规范:
 1.使用volatile变量时，必须重新从主内存中加载，并且read，load是连续的;
 2.使用volatile变量后，必须立马同步到主内存中，并且store，write是连续的;
-    
+
+使用volatile的三个理由:
+    1.防止字分裂: 数据类型(long和double都是64位)比较大时，读写变量的过程(JVM允许将64位的数量的读写分成两个单独的32位操作)分为两步进行。
+      有可能其他线程会看到不正确的值。此外，volatile不会影响到增量操作并不是原子操作的事实;
+    2.保证可见性: 当在工作内存中做了对共享变量的修改操作后能立刻写到主内存;
+    3.防止指令重排: volatile可以阻止重排volatile变量周围的读写指令，这种重排规则叫做happen-before担保原则。
+    这种规则保证，在volatile变量之前的指令会优于valatile变量读写之前执行，在valotile变量之后的指令会优于volatail变量读写之后执行。
+    也就是volatile会申请内存屏障，happen-before原则保证volatile变量指令重排不会跨越内存屏障;

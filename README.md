@@ -16,9 +16,16 @@
     11.[Spring5.1.3](https://github.com/DocsHome/spring-docs)  
    
 **网站:**       
-    1. https://github.com/iamshuaidi/CS-Book    
-    2. https://github.com/docs4dev/docs4dev    
-    3. [图灵社区](https://www.ituring.com.cn/)  
+    1. [设计模式](https://refactoringguru.cn/design-patterns)    
+    2. https://github.com/iamshuaidi/CS-Book    
+    3. https://github.com/docs4dev/docs4dev    
+    4. [图灵社区](https://www.ituring.com.cn/)  
 
 **工具书:**    
-    1. [Markdown](http://shouce.jb51.net/markdowns/article/syntax/paragraphs-and-line-breaks.html)    
+    1. [Markdown](http://shouce.jb51.net/markdowns/article/syntax/paragraphs-and-line-breaks.html)
+
+## 在线视频
+
+[线程池原理和分析: 包含线程介绍和手写线程池](https://live.csdn.net/room/weixin_48013460/xDZsaiJG?utm_medium=distribute.pc_home_second_level_live.none-task-liveroom-null-17.nonecase&depth_1-utm_source=distribute.pc_home_second_level_live.none-task-liveroom-null-17.nonecase)  
+
+

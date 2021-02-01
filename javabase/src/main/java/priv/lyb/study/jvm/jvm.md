@@ -1,5 +1,5 @@
 JVM:
-![img_1.png](img_1.png)
+![img_1.png](img_1.png)  
 
 参考文档:
 1.https://live.csdn.net/room/weixin_48013460/4YvQjPxO?utm_medium=distribute.pc_video_live.none-task-liveroom-csdn&depth_1-utm_source=distribute.pc_video_live.none-task-liveroom-csdn&spm=1016.2107.3001.4252
@@ -25,6 +25,12 @@ JVM内存模型(运行区数据区):
             动态链接
     4.本地方法栈: 和虚拟机栈类似，管理的是本地方法;
     5.程序计数器: 保存当前线程执行字节码的行号;
+
+对象的创建过程:
+
+类的初始化过程:
+
+类的加载过程:
     
 类加载器:
 类加载器双亲委派:
@@ -36,7 +42,7 @@ JVM内存模型(运行区数据区):
 垃圾回收(GC):
 
 堆的分代模型:
-![img.png](img.png)
+![img.png](img.png)  
 GC算法:
 垃圾回收器:
 
