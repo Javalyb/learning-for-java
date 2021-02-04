@@ -1,7 +1,5 @@
-package priv.lyb.study.concurrent.volatilekey;
+package priv.lyb.study.concurrent.lock.volatilekey;
 
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -12,8 +10,7 @@ public class Test {
 
     public static void main(String[] args) {
         Test test = new Test();
-        System.out.println("主线程 step1: " + test.number);
-        CompletableFuture<Void> completableFuture = CompletableFuture.runAsync(new Thread(() -> {
+        new Thread(() -> {
             try {
                 System.out.println("子线程 step1: " + test.number);
                 TimeUnit.MILLISECONDS.sleep(5000);
@@ -23,12 +20,9 @@ public class Test {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-        }));
-        try {
-            System.out.println(completableFuture.get());
-        } catch (InterruptedException | ExecutionException e) {
-            e.printStackTrace();
-        }
+
+        }).start();
+
         System.out.println("主线程 step2: " + test.number);
         while (test.number != 10) {
             test.number = test.number - 3;

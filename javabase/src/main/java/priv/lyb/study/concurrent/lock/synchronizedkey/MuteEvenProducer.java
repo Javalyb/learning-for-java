@@ -1,4 +1,4 @@
-package priv.lyb.study.concurrent.synchronizedkey;
+package priv.lyb.study.concurrent.lock.synchronizedkey;
 
 import priv.lyb.study.concurrent.thread.EvenChecker;
 import priv.lyb.study.concurrent.thread.IntGenerator;
