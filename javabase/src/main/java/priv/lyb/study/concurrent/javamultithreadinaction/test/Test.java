@@ -53,6 +53,15 @@ public class Test {
 
         Thread thread3 = new Thread(new FutureTask<Integer>(new Callablees()));
         thread3.start();
+        thread3.interrupt();
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+
 
     }
 }

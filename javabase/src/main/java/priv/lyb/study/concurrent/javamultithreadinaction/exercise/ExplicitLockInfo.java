@@ -1,4 +1,4 @@
-package priv.lyb.study.concurrent.javamultithreadinaction.three;
+package priv.lyb.study.concurrent.javamultithreadinaction.exercise;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;

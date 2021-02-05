@@ -1,4 +1,4 @@
-package priv.lyb.study.concurrent.javamultithreadinaction.two;
+package priv.lyb.study.concurrent.javamultithreadinaction.exercise;
 
 import java.io.IOException;
 import java.io.OutputStream;

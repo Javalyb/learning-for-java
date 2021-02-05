@@ -1,4 +1,4 @@
-package priv.lyb.study.concurrent.javamultithreadinaction.one;
+package priv.lyb.study.concurrent.javamultithreadinaction.exercise;
 
 import java.util.Arrays;
 import java.util.SplittableRandom;

@@ -1,4 +1,4 @@
-package priv.lyb.study.concurrent.javamultithreadinaction.two;
+package priv.lyb.study.concurrent.javamultithreadinaction.exercise;
 
 /**
  * @author LiuYingBo 2021/02/03 19:14

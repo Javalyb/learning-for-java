@@ -1,4 +1,4 @@
-package priv.lyb.study.concurrent.javamultithreadinaction.two;
+package priv.lyb.study.concurrent.javamultithreadinaction.exercise;
 
 import java.text.DecimalFormat;
 import java.time.LocalDateTime;
