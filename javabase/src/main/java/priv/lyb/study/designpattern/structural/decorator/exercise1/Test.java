@@ -1,4 +1,4 @@
-package priv.lyb.study.designpattern.structural.ornament;
+package priv.lyb.study.designpattern.structural.decorator.exercise1;
 
 import lombok.extern.slf4j.Slf4j;
 

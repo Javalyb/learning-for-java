@@ -1,4 +1,4 @@
-package priv.lyb.study.designpattern.behavitives.templatepattern;
+package priv.lyb.study.designpattern.behavitives.templatemethod;
 
 import lombok.extern.slf4j.Slf4j;
 

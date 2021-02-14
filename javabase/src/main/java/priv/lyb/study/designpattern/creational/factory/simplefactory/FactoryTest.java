@@ -10,10 +10,9 @@ import org.junit.jupiter.api.Test;
 public class FactoryTest {
     @Test
     public void fun1() {
-        SenderFactory senderFactory = new SenderFactory();
-        Sender senderSms = senderFactory.getSender("sms");
-        Sender senderEamil = senderFactory.getSender("email");
+        Sender senderSms = SenderFactory.getSender("sms");
+        Sender senderEmail = SenderFactory.getSender("email");
         senderSms.sender();
-        senderEamil.sender();
+        senderEmail.sender();
     }
 }

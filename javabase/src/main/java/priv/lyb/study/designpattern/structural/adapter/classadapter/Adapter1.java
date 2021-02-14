@@ -6,6 +6,7 @@ package priv.lyb.study.designpattern.structural.adapter.classadapter;
 public class Adapter1 extends Source implements TargetSource {
     @Override
     public void method2() {
-        System.out.println("Adapter1 method2");
+        System.out.println("adapt Source method2");
     }
+
 }

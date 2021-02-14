@@ -1,4 +1,4 @@
-package priv.lyb.study.designpattern.behavitives.templatepattern;
+package priv.lyb.study.designpattern.behavitives.templatemethod;
 
 /**
  * @author LiuYingBo 2021/1/4 上午1:03

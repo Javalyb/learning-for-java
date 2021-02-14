@@ -1,7 +1,9 @@
 package priv.lyb.study.designpattern.structural.adapter.classadapter;
 
 /**
- * @author LiuYingBo 2021/1/2
+ * @Author: LiuYingBo
+ * @Description:
+ * @Date: 15:19 2021/02/14
  */
 public class Source {
     public void method1() {

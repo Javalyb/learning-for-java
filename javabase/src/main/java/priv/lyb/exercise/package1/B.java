@@ -1,16 +1,21 @@
 package priv.lyb.exercise.package1;
 
 /**
- * @author LiuYingBo 2021/01/22 16:59
+ * @author LiuYingBo 2021/02/10 22:13
  */
-public class B extends A{
-    void fun2(){
-        System.out.println("B fun2");
+public interface B {
+    int i=0;
+    int b();
+    default void a(){
+        System.out.println("1");
     }
+    default void a1(){
 
-    public static void main(String[] args) {
-        A b = new B();
-//        b.fun2();
-        b.fun1();
+    }
+    static void aa(){
+
+    }
+    static void aa1(){
+
     }
 }

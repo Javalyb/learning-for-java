@@ -20,6 +20,7 @@
     - https://github.com/iamshuaidi/CS-Book    
     - https://github.com/docs4dev/docs4dev    
     - [图灵社区](https://www.ituring.com.cn/)  
+    - [JCSprout](https://crossoverjie.top/JCSprout/#/)
 
 - **工具书:**    
     - [Markdown](http://shouce.jb51.net/markdowns/article/syntax/paragraphs-and-line-breaks.html)
