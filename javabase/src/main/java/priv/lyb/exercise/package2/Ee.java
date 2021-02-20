@@ -29,7 +29,6 @@ public abstract class Ee implements B{
         aa.defaultFunA("aaa");
         aa.defaultFunB("bbb");
         aa.fun();
-
     }
 
     public static void main(String[] args) {
