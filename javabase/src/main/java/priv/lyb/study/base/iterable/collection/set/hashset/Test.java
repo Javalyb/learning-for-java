@@ -1,4 +1,4 @@
-package priv.lyb.study.base.gather.collection.set.hashset;
+package priv.lyb.study.base.iterable.collection.set.hashset;
 
 import java.util.HashSet;
 

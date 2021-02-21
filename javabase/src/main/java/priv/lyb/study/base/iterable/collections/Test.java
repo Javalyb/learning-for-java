@@ -1,4 +1,4 @@
-package priv.lyb.study.base.gather.collections;
+package priv.lyb.study.base.iterable.collections;
 
 import java.util.*;
 

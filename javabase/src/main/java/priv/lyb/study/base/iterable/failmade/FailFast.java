@@ -1,4 +1,4 @@
-package priv.lyb.study.base.gather.failmade;
+package priv.lyb.study.base.iterable.failmade;
 
 import org.junit.jupiter.api.Test;
 
@@ -17,7 +17,7 @@ public class FailFast {
             String s = iterator.next();
 //            list.set(0,"1");
             list.remove(0);
-            iterator.remove();
+//            iterator.remove();
 //            list.add("1");
         }
     }

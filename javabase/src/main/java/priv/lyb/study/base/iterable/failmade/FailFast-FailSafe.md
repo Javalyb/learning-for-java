@@ -12,12 +12,12 @@ fail-fast:
     会抛出ConcurrentModificationException异常;
     当集合发生变化时修改了modCount，同时赋值给了expectedModCount，则不会抛出异常; 
     因此不能根据抛出异常来判断是否执行了异常操作; 解决方式: 迭代器中删除可以用Iterator.remove方法;
-    使用JUC中CopyOnWriteArrayList方法，CopyOnWriteArrayList没有继承AbstractList，只是实现了List接口， 不会根据修改次数和快照判断抛出异常;
+    使用JUC中CopyOnWriteArrayList方法，CopyOnWriteArrayList没有继承AbstractList，只是实现了List接口，不会根据修改次数和快照判断抛出异常;
 
 fail-safe:
     安全失败: 
-        采用安全失败机制的集合，在遍历时不会直接访问集合对象，而是访问的该集合快照，所以不保证读取到到值和当前集合到状态是一致到; 
-        java.util.concurrent包下到所有类都是采用安全失败的;
+        采用安全失败机制的集合，在遍历时不会直接访问集合对象，而是访问的该集合快照，所以不保证读取到的值和当前集合的状态是一致的; 
+        java.util.concurrent包下的所有类都是采用安全失败的;
     
     
     

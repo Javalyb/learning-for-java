@@ -1,4 +1,4 @@
-package priv.lyb.study.base.gather.collection.list.arraylist;
+package priv.lyb.study.base.iterable.collection.list.arraylist;
 
 import java.util.ArrayList;
 import java.util.Arrays;

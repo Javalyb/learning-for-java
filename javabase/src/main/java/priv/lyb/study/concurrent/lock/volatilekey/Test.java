@@ -1,6 +1,8 @@
 package priv.lyb.study.concurrent.lock.volatilekey;
 
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @author LiuYingBo 2021/01/31 23:11
@@ -33,6 +35,7 @@ public class Test {
 
     void modify() {
         this.number = this.number - 7;
+
     }
 }
 

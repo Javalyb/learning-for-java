@@ -1,4 +1,4 @@
-package priv.lyb.study.base.gather.failmade;
+package priv.lyb.study.base.iterable.failmade;
 
 import org.junit.jupiter.api.Test;
 

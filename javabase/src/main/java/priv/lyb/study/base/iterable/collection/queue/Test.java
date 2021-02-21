@@ -1,4 +1,4 @@
-package priv.lyb.study.base.gather.collection.queue;
+package priv.lyb.study.base.iterable.collection.queue;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
