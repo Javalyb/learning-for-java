@@ -9,6 +9,17 @@
       <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring/springboot/springboot.iml" filepath="$PROJECT_DIR$/spring/springboot/springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/springcloud/springbootEurakeClient1/springbootEurakeClient1.iml" filepath="$PROJECT_DIR$/spring/springcloud/springbootEurakeClient1/springbootEurakeClient1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/springcloud/springbootclient1/springbootclient1.iml" filepath="$PROJECT_DIR$/spring/springcloud/springbootclient1/springbootclient1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/springcloud/springbootclient2/springbootclient2.iml" filepath="$PROJECT_DIR$/spring/springcloud/springbootclient2/springbootclient2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/springcloud/springbootclient3/springbootclient3.iml" filepath="$PROJECT_DIR$/spring/springcloud/springbootclient3/springbootclient3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/springcloud/springbootconfig/springbootconfig.iml" filepath="$PROJECT_DIR$/spring/springcloud/springbootconfig/springbootconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/springcloud/springboothystrix/springboothystrix.iml" filepath="$PROJECT_DIR$/spring/springcloud/springboothystrix/springboothystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/springcloud/springbootnacos/springbootnacos.iml" filepath="$PROJECT_DIR$/spring/springcloud/springbootnacos/springbootnacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/springcloud/springbootribbon/springbootribbon.iml" filepath="$PROJECT_DIR$/spring/springcloud/springbootribbon/springbootribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/springcloud/springbootzuul/springbootzuul.iml" filepath="$PROJECT_DIR$/spring/springcloud/springbootzuul/springbootzuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/springcloud/springcloud.iml" filepath="$PROJECT_DIR$/spring/springcloud/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/springcloud/springcloudeurake/springcloudeurake.iml" filepath="$PROJECT_DIR$/spring/springcloud/springcloudeurake/springcloudeurake.iml" />
     </modules>
   </component>
 </project>
