@@ -26,6 +26,6 @@ out/
 #git rm -r --cached .
 #git add .
 #git commit -m 'update .gitignore'
-#git push origin master
+#git push origin main
 
 
