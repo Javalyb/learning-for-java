@@ -22,4 +22,10 @@ out/
 *.tar.gz
 *.rar
 
+#重新初始化
+#git rm -r --cached .
+#git add .
+#git commit -m 'update .gitignore'
+#git push origin master
+
 
