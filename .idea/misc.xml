@@ -27,6 +27,7 @@
         <option value="$PROJECT_DIR$/spring/springcloud/pom.xml" />
         <option value="$PROJECT_DIR$/spring/springcloud/springcloudeurake/pom.xml" />
         <option value="$PROJECT_DIR$/spring/springcloud/springbootribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/messagequeue/RabbitMQ/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

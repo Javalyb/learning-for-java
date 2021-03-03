@@ -17,8 +17,8 @@
         <module name="springboot" />
         <module name="springbootclient1" />
         <module name="springbootzuul" />
+        <module name="RabbitMQ" />
         <module name="mysql" />
-        <module name="messagequeue" />
         <module name="springbootconfig" />
         <module name="springbootclient3" />
         <module name="springbootclient2" />
@@ -36,7 +36,9 @@
       <module name="javaconcurrent" target="1.8" />
       <module name="javavirtualmachine" target="1.8" />
       <module name="messagequeue" target="1.8" />
+      <module name="messagequeue (1)" target="1.8" />
       <module name="mysql" target="1.8" />
+      <module name="RabbitMQ" target="1.8" />
       <module name="redis" target="1.8" />
       <module name="spring" target="1.8" />
       <module name="springboot" target="1.8" />
@@ -71,11 +73,13 @@
   <component name="JavacSettings">
     <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="RabbitMQ" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="javabase" options="-parameters" />
       <module name="javaconcurrent" options="-parameters" />
       <module name="javavirtualmachine" options="-parameters" />
       <module name="messagequeue" options="-parameters" />
+      <module name="messagequeue (1)" options="-parameters" />
       <module name="mysql" options="-parameters" />
       <module name="redis" options="-parameters" />
       <module name="spring" options="-parameters" />
