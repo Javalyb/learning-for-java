@@ -7,7 +7,6 @@ import java.time.format.DateTimeFormatter;
  * @author LiuYingBo 2021/01/11 17:09
  */
 public class Test {
-    @org.junit.jupiter.api.Test
     public void fun() {
         //日期->字符串
         LocalDateTime localDateTime = LocalDateTime.now();

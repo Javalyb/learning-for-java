@@ -1,7 +1,7 @@
-##REDIS:
+## REDIS:
 
-##数据类型：
-###基本类型：
+## 数据类型：
+### 基本类型：
 String：数据结构类似HashMap<String,Object>。Object数据类型可以为String，Number，bit
 场景：
 String类型：利用setNX用于分布式全局锁、
@@ -21,7 +21,7 @@ Set：无序，不可重复。数据结构类似HashMap<String,HashSet<Object>>;
 Zset:有序，不可重复。数据结构类似HashMap<String,Zset<Object>>;
 场景：排行榜
 
-###高级用法
+### 高级用法
 Bitmap：「位图」支持按bit位来存储信息，可以用来实现布隆过滤器（BloomFilter）
 
 Geospatial：
@@ -37,5 +37,5 @@ LUA：通过LUA脚本的原子性执行批操作
 
 事务
 
-##持久化
+## 持久化
 RDB和AOF
