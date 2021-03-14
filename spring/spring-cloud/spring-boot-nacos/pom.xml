@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.4.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
+    <modelVersion>4.0.0</modelVersion>
     <groupId>priv.lyb</groupId>
-    <artifactId>redis</artifactId>
+    <artifactId>spring-boot-nacos</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>redis</name>
-    <description>redis</description>
+    <name>spring-boot-nacos</name>
+    <description>spring-boot-nacos</description>
 
     <properties>
         <java.version>1.8</java.version>
+        <nacos-config-spring-boot.version>0.2.1</nacos-config-spring-boot.version>
     </properties>
 
     <dependencies>
@@ -23,22 +25,20 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
+        <!--<dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>1.3.2</version>
+        </dependency>-->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.7.0</version>
+            <groupId>com.alibaba.boot</groupId>
+            <artifactId>nacos-config-spring-boot-starter</artifactId>
+            <version>${nacos-config-spring-boot.version}</version>
         </dependency>
     </dependencies>
-
 </project>

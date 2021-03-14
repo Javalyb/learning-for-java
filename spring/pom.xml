@@ -14,8 +14,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>springboot</module>
-        <module>springcloud</module>
+        <module>spring-boot</module>
+        <module>spring-cloud</module>
     </modules>
 
     <properties>
