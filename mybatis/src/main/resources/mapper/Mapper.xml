@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="priv.lyb.Mapper">
+    <select id="listData" resultType="priv.lyb.Entity">
+        select LADING_NO ladingNo,CASE_NO caseNo,ORDER_NO orderNo from sys_delivery_merge
+    </select>
+
+    <insert id="insertData" parameterType="map">
+        insert into sys_delivery_merge_temp(LADING_NO,CASE_NO,ORDER_NO)
+        values(#{ladingNo},#{caseNo},#{orderNo})
+    </insert>
+</mapper>

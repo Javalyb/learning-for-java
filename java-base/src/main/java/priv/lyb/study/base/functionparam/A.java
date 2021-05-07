@@ -26,7 +26,7 @@ public class A {
          * 2.基本类型：传的是数值，不会改变原来的值；
          * 3.引用类型(包括数组)：传的是引用，会改变原来的值；
          */
-        change(i, s, it, arr, b);
+        change(i, s, it, arr, b  );
         System.out.println("i=" + i);
         System.out.println("s=" + s);
         System.out.println("it=" + it);

@@ -25,4 +25,12 @@ public class Test {
 
     }
 
+    public static void main(String[] args) {
+        //日期->字符串
+        LocalDateTime localDateTime = LocalDateTime.now();
+        System.out.println(localDateTime);
+        String timeFormat = localDateTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+        System.out.println(timeFormat);
+    }
+
 }
