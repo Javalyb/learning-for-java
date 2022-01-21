@@ -1,4 +1,4 @@
-package priv.lyb.study.base.enumkey.enums;
+package priv.lyb.study.base.enumkey;
 
 import java.util.Arrays;
 import java.util.Random;
