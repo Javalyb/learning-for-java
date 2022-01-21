@@ -1,5 +1,6 @@
 package priv.lyb.study.base.enumkey.enums;
 
+import java.util.Arrays;
 import java.util.Random;
 
 /**
@@ -21,6 +22,9 @@ public enum Course {
     }
 
     public static void main(String[] args) {
+        System.out.println(Arrays.toString(Course.class.getEnumConstants()));
+        System.out.println(Arrays.toString(Course.values()));
+
         System.out.println(Course.APPETIZER.randomSelection());
         System.out.println("-----------------------");
 

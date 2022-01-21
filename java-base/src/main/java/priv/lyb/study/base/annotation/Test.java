@@ -17,7 +17,7 @@ public class Test {
         System.out.println("Test fun2");
     }
 
-    @TestAnnotation(id = 2)
+    //@TestAnnotation(id = 2)
     public static void fun1(){
         System.out.println("Test fun1");
     }

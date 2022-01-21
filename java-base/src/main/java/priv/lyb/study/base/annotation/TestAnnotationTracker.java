@@ -12,7 +12,9 @@ public class TestAnnotationTracker {
     public static void getAnnotation(Class<?> t){
         for (Method declaredMethod : t.getDeclaredMethods()) {
             TestAnnotation testAnnotation = declaredMethod.getAnnotation(TestAnnotation.class);
-            System.out.println(testAnnotation.id() + " " + testAnnotation.description());
+            if(testAnnotation != null){
+                System.out.println(testAnnotation.id() + " " + testAnnotation.description());
+            }
         }
     }
     public static void main(String[] args) {

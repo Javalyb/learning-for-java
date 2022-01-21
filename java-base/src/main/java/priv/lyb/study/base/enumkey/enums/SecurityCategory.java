@@ -9,7 +9,7 @@ public enum SecurityCategory {
 
     private Security [] securities;
     SecurityCategory(Class<? extends Security> t){
-            securities = t.getEnumConstants();
+        securities = t.getEnumConstants();
     }
 
     interface Security{

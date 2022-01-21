@@ -14,7 +14,7 @@
     1.instanceof: 检测对象是否是某个类型的实例;
     2.isInstance(): 提供一种动态测试对象类型的方法;
     3.Class1.isAssignableForm(Class2): 判断Class1是否为Class2的父类;
-2.反射: 使用Class对象来实现。在运行时使用类的信息;
+2.反射: 使用Class对象来实现。在运行时使用类的信息;`
 
 ## RTTI和反射的区别:
 RTTI在编译时打开并检查.class文件。反射在运行时才打开并检查文件;

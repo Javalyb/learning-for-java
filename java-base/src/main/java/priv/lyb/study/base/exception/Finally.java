@@ -30,6 +30,7 @@ public class Finally {
         } finally {
             System.out.println("when go to finally a = " + a);
             a = "2";
+            System.out.println("when go to finally a = " + a);
 //            return a;
         }
     }

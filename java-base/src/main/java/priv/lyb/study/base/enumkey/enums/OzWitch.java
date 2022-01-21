@@ -17,8 +17,9 @@ public enum OzWitch {
     }
 
     public static void main(String[] args) {
+        System.out.println(OzWitch.WEST.getDescription());
         for (OzWitch value : OzWitch.values()) {
-            System.out.println(value+" "+value.getDescription());
+            System.out.println(value + " " + value.getDescription());
         }
     }
 }

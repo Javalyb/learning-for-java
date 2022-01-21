@@ -28,7 +28,7 @@ public class Holder<T> {
 
 
 
-        Holder<Apple> apple = new Holder<Apple>(new Apple());
+        Holder<Apple> apple = new Holder<>(new Apple());
         Apple d = apple.getT();
         apple.setT(d);
         Holder<? extends Fruit> fruit = apple;
@@ -39,7 +39,7 @@ public class Holder<T> {
 
 
 
-        Holder<Fruit> a = new Holder<Fruit>(new Fruit());
+        Holder<Fruit> a = new Holder<>(new Fruit());
         System.out.println(a.getT());
         a.setT(new Apple());
         System.out.println(a.getT());
