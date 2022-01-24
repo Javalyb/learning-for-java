@@ -6,7 +6,8 @@
     - [OnJava8] 
       
       (1.https://lingcoder.gitee.io/onjava8)    
-      (2.https://wizardforcel.gitbooks.io/onjava8/content/book/01-What-is-an-Object.html)    
+      (2.https://wizardforcel.gitbooks.io/onjava8/content/book/01-What-is-an-Object.html)  
+      (3.https://hardocs.com/d/onjava8/) 
     - [Spring Framework](https://www.docs4dev.com/docs/zh/spring-framework/5.1.3.RELEASE/reference/core.html#beans)            
     - [Springboot](https://www.docs4dev.com/docs/zh/spring-boot/2.1.1.RELEASE/reference)  
     - [Spring Security](https://www.docs4dev.com/docs/zh/spring-security/5.1.2.RELEASE/reference)  
