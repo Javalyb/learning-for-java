@@ -3,6 +3,8 @@ test/
 out/
 .mvn/
 .idea/
+.vscode/
+*.code-workspace
 
 # Compiled class file
 *.class
