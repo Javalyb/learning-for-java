@@ -22,7 +22,6 @@
         <module>mybatis</module>
         <module>mysql</module>
         <module>redis</module>
-        <module>rocketMQ</module>
         <module>spring</module>
         <module>zookeeper</module>
     </modules>

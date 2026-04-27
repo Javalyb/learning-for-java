@@ -17,6 +17,7 @@
 
     <modules>
         <module>rabbit-mq</module>
+        <module>rocketMQ</module>
     </modules>
 
     <properties>
