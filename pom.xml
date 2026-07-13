@@ -23,7 +23,8 @@
         <module>mysql</module>
         <module>redis</module>
         <module>spring</module>
+        <module>spring-cloud-alibaba</module>
         <module>zookeeper</module>
     </modules>
-    
+
 </project>

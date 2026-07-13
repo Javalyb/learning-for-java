@@ -1,0 +1,21 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: sca-gateway
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        enabled: true
+
+    gateway:
+      routes:
+        - id: self-route
+          uri: http://localhost:8082
+          predicates:
+            - Path=/gw/**
+          filters:
+            - StripPrefix=1

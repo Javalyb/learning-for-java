@@ -1,0 +1,26 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: sca-demo
+
+  config:
+    import: optional:nacos:${spring.application.name}.properties
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        enabled: true
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: properties
+
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8085
+      eager: true
+
+app:
+  message: Hello from sca-demo
