@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>API 幂等性实验室</title>
+<style>body{max-width:900px;margin:32px auto;padding:0 18px;font:15px system-ui;color:#172033;background:#f7f9fc}section{background:#fff;padding:18px;margin:14px 0;border-radius:10px;box-shadow:0 2px 12px #dde3ee}input,button{padding:9px;margin:4px}input{min-width:180px}button{cursor:pointer;border:0;border-radius:6px;background:#1769e0;color:#fff}pre{white-space:pre-wrap;background:#101827;color:#d9e5ff;padding:14px;border-radius:7px}</style></head>
+<body><h1>Idempotency-Key 幂等性实验室</h1>
+<section><p>每次“业务动作”先生成一个键；网络超时重试必须复用同一个键。服务端先原子占位，再缓存成功响应；重复请求不再写库。</p>
+用户 ID <input id="user" value="1001"> 商品 <input id="product" value="Java 并发课程"> 数量 <input id="quantity" value="1" type="number" min="1"><br>
+幂等键 <input id="key" readonly> <button onclick="newKey()">生成新键</button><button onclick="send()">普通提交</button><button onclick="send();send()">连续提交（复用键）</button><button onclick="parallel()">并发提交（观察 409）</button></section>
+<section><h2>结果</h2><pre id="output">点击按钮开始实验。</pre></section>
+<section><h2>如何读结果</h2><ol><li>首次请求为 <code>201</code>，响应头 <code>Idempotency-Replayed: false</code>。</li><li>复用同一个键会得到同一订单，状态为 <code>200</code>，响应头为 <code>true</code>。</li><li>并发演示给其中一个请求加短暂延迟：另一请求在记录仍为 PROCESSING 时得到 <code>409</code>。</li><li>缺少键会得到 <code>400</code>。数据库的 <code>(user_id, request_id)</code> 唯一索引是跨实例竞争的最终防线。</li></ol></section>
+<script>const out=document.querySelector('#output');function newKey(){document.querySelector('#key').value='web-'+Date.now()+'-'+Math.random().toString(36).slice(2,8)}newKey();function data(){return{userId:+user.value,productName:product.value,quantity:+quantity.value}}async function call(delay=0){let r=await fetch('/api/orders',{method:'POST',headers:{'Content-Type':'application/json','Idempotency-Key':key.value,'X-Demo-Processing-Delay-Millis':String(delay)},body:JSON.stringify(data())});return{status:r.status,replayed:r.headers.get('Idempotency-Replayed'),body:await r.json()}}async function send(){out.textContent=JSON.stringify(await call(),null,2)}async function parallel(){let results=await Promise.all([call(700),call(0)]);out.textContent=JSON.stringify(results,null,2)}</script></body></html>

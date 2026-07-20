@@ -1,0 +1,30 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: sca-sentinel
+
+  cloud:
+    sentinel:
+      # 是否提前初始化 Sentinel（默认懒加载，设为 true 可在启动时就注册规则）
+      eager: true
+      transport:
+        # Sentinel Dashboard 地址（本地启动 Dashboard 后访问 http://localhost:8080）
+        dashboard: 127.0.0.1:8080
+        # 与 Dashboard 通信的端口（默认 8719），会自动探测可用端口
+        port: 8719
+      # 日志目录
+      log:
+        dir: logs/sentinel
+
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        enabled: true
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: properties
+
+  config:
+    import: optional:nacos:${spring.application.name}.properties
