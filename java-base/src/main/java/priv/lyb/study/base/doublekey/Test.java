@@ -29,6 +29,7 @@ public class Test {
         BigDecimal bigDecimal2 = new BigDecimal(f);
         System.out.println(bigDecimal1.compareTo(bigDecimal2));
 
+
         //Double类型比较
         System.out.println(Double.doubleToLongBits(e) == Double.doubleToLongBits(f));
     }

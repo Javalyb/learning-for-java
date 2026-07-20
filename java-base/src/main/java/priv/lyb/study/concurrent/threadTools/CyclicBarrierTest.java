@@ -1,4 +1,4 @@
-package priv.lyb.study.concurrent.tools;
+package priv.lyb.study.concurrent.threadTools;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;

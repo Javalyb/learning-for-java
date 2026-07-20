@@ -22,6 +22,7 @@ public class UserCaseTracker {
 
     public static void main(String[] args) {
         List<Integer> useCases = IntStream.range(40, 50).boxed().collect(Collectors.toList());
+        System.out.println(useCases);
         trackerUseCases(useCases, PasswordUtils.class);
     }
 }

@@ -1,4 +1,4 @@
-package priv.lyb.study.concurrent.tools;
+package priv.lyb.study.concurrent.threadTools;
 
 import java.util.HashSet;
 import java.util.Set;

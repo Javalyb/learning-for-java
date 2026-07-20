@@ -18,5 +18,6 @@ public class Burritos2 {
     public static void main(String[] args) {
         System.out.println(new Burritos2(NOT));
         System.out.println(new Burritos2(MILD));
+
     }
 }

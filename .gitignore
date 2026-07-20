@@ -5,6 +5,11 @@ out/
 .idea/
 .vscode/
 .claude/
+.codegraph/
+.learnings/
+.reasonix/
+.github/
+logs/
 *.code-workspace
 CLAUDE.md
 

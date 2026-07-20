@@ -15,6 +15,7 @@
     </properties>
 
     <modules>
+        <module>api-idempotency-demo</module>
         <module>distributed</module>
         <module>dubbo</module>
         <module>java-base</module>
@@ -24,6 +25,7 @@
         <module>redis</module>
         <module>spring</module>
         <module>spring-cloud-alibaba</module>
+        <module>spring3-demo</module>
         <module>zookeeper</module>
     </modules>
 

@@ -20,6 +20,7 @@
 
     <modules>
         <module>sca-nacos</module>
+        <module>sca-sentinel</module>
         <module>sca-gateway</module>
         <module>sca-demo</module>
         <module>sca-demo1</module>

@@ -13,7 +13,7 @@ public class FeignController {
     @Autowired
     private HelloClient helloClient;
 
-    @GetMapping("/feign")
+    @GetMapping(value = "/feign")
     public String feign() {
         return "Feign call result: " + helloClient.hello();
     }
